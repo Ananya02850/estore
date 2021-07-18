@@ -8,8 +8,36 @@ body {
     background: #f3f6ff;
 }
 
+.col-sm-6{
+    cursor: context-menu;
+}
+
+.col-sm-6:hover{
+    color: #fff;
+}
+
+
 a {
     color: #FF6F61;
+}
+.mail:hover{
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+}
+a{
+    letter-spacing: 1px;
+}
+
+
+
+img .banner:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
+    padding: 0px;
 }
 
 a:hover,
@@ -17,7 +45,12 @@ a:active,
 a:focus {
     color: #353535;
     outline: none;
+    transform: scale(1.1);
+    transition: 0.5s all ease-in-out;
     text-decoration: none;
+
+   margin-left: 4px;
+    margin-right: 4px;
 }
 
 h1 {
